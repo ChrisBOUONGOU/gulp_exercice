@@ -1,0 +1,100 @@
+// Variables
+@import "variables";
+
+
+body {
+  background-color: $dark-blue;
+
+  font-family: degular,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+h1 {
+  font-family: degular-display,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#frame{
+  margin-left: -9px;
+  margin-top: -8px;
+   
+}
+#star_1{
+float:right;
+}
+section{
+text-align:center;
+margin-top:-125px;
+}
+#hono{
+text-align: center;
+height: 65px;
+width: 180px;
+
+}
+p{
+color: $light-blue;
+font-size: 40px;
+}
+#pos{
+ position:relative;
+
+
+}
+#star_2{
+position:absolute;
+ z-index:-1;
+ margin-left: -338px;
+ margin-top: -45px;
+
+}
+#star_3{
+  margin-bottom: -190px;
+  margin-left: 690px;
+
+}
+footer{
+text-align:center;
+}
+#ellipse{
+  margin-left: -300px;
+  position:relative;
+  margin-top: 30px;
+}
+#rectangle{
+	width:360px;
+	height:70px;
+	background:$light-orange;
+  position:absolute;
+  margin-left: 620px;
+  margin-top: 10px;
+  z-index: 3;
+  -webkit-transform : rotate(-3deg); 
+ -moz-transform : rotate(-3deg); 
+ -ms-transform : rotate(-3deg); 
+ -o-transform : rotate(-3deg); 
+ transform : rotate(-3deg); 
+  
+  
+  
+ 
+}
+#rectangle_deux{
+  width:400px;
+	height:70px;
+	background: $dark-orange;
+ 
+  position:absolute;
+  z-index: 1;
+  margin-left: 600px;
+  margin-top: 30px;
+  
+}
+
+#parl{
+  color:white;
+  font-size: 23px;
+  padding-top: -5px;
+}
